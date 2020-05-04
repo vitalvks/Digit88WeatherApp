@@ -29,8 +29,27 @@
 		AD745D3D2460117A00661005 /* SigninViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD745D2F2460117A00661005 /* SigninViewModel.swift */; };
 		AD745D3E2460117A00661005 /* WeatherReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD745D302460117A00661005 /* WeatherReportViewController.swift */; };
 		AD745D3F2460117A00661005 /* WeatherMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD745D312460117A00661005 /* WeatherMessageCell.swift */; };
+		AD745D472460121100661005 /* Digit88WhetherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD745D462460121100661005 /* Digit88WhetherAppTests.swift */; };
+		AD745D55246012E000661005 /* Digit88WhetherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD745D54246012E000661005 /* Digit88WhetherAppUITests.swift */; };
 		F969298B245ED44E00027AAD /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F969298A245ED44E00027AAD /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD745D492460121100661005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2A89C0245E7C7000A1815F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD2A89C7245E7C7000A1815F;
+			remoteInfo = Digit88WhetherApp;
+		};
+		AD745D57246012E000661005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2A89C0245E7C7000A1815F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD2A89C7245E7C7000A1815F;
+			remoteInfo = Digit88WhetherApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		60C290E00F53F95DACB76061 /* Pods-Digit88WhetherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digit88WhetherAppTests.release.xcconfig"; path = "Target Support Files/Pods-Digit88WhetherAppTests/Pods-Digit88WhetherAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,10 +64,6 @@
 		AD2A89D4245E7C7100A1815F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD2A89D7245E7C7100A1815F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD2A89D9245E7C7100A1815F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD2A89E2245E7C7100A1815F /* Digit88WhetherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digit88WhetherAppTests.swift; sourceTree = "<group>"; };
-		AD2A89E4245E7C7100A1815F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD2A89ED245E7C7100A1815F /* Digit88WhetherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digit88WhetherAppUITests.swift; sourceTree = "<group>"; };
-		AD2A89EF245E7C7100A1815F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD745D202460115100661005 /* ForecastCityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastCityModel.swift; sourceTree = "<group>"; };
 		AD745D212460115100661005 /* AutoCompleteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCompleteModel.swift; sourceTree = "<group>"; };
 		AD745D242460117A00661005 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
@@ -65,6 +80,12 @@
 		AD745D2F2460117A00661005 /* SigninViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewModel.swift; sourceTree = "<group>"; };
 		AD745D302460117A00661005 /* WeatherReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherReportViewController.swift; sourceTree = "<group>"; };
 		AD745D312460117A00661005 /* WeatherMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherMessageCell.swift; sourceTree = "<group>"; };
+		AD745D442460121100661005 /* Digit88WhetherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Digit88WhetherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD745D462460121100661005 /* Digit88WhetherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digit88WhetherAppTests.swift; sourceTree = "<group>"; };
+		AD745D482460121100661005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD745D52246012E000661005 /* Digit88WhetherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Digit88WhetherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD745D54246012E000661005 /* Digit88WhetherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digit88WhetherAppUITests.swift; sourceTree = "<group>"; };
+		AD745D56246012E000661005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF7A93DA8D003B4D836EAE9F /* Pods-Digit88WhetherApp-Digit88WhetherAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digit88WhetherApp-Digit88WhetherAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Digit88WhetherApp-Digit88WhetherAppUITests/Pods-Digit88WhetherApp-Digit88WhetherAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0ABAF87462233750A0B7BE1 /* Pods-Digit88WhetherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digit88WhetherApp.release.xcconfig"; path = "Target Support Files/Pods-Digit88WhetherApp/Pods-Digit88WhetherApp.release.xcconfig"; sourceTree = "<group>"; };
 		C4B04DEF65FACCCFDB41E171 /* Pods-Digit88WhetherApp-Digit88WhetherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digit88WhetherApp-Digit88WhetherAppUITests.release.xcconfig"; path = "Target Support Files/Pods-Digit88WhetherApp-Digit88WhetherAppUITests/Pods-Digit88WhetherApp-Digit88WhetherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +103,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD745D412460121100661005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD745D4F246012E000661005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,8 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				AD2A89CA245E7C7000A1815F /* Digit88WhetherApp */,
-				AD2A89E1245E7C7100A1815F /* Digit88WhetherAppTests */,
-				AD2A89EC245E7C7100A1815F /* Digit88WhetherAppUITests */,
+				AD745D452460121100661005 /* Digit88WhetherAppTests */,
+				AD745D53246012E000661005 /* Digit88WhetherAppUITests */,
 				AD2A89C9245E7C7000A1815F /* Products */,
 				F95EE8082ECB2CEE7B00C63E /* Pods */,
 				F49BD42823C96E5E3E782BBA /* Frameworks */,
@@ -101,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				AD2A89C8245E7C7000A1815F /* Digit88WhetherApp.app */,
+				AD745D442460121100661005 /* Digit88WhetherAppTests.xctest */,
+				AD745D52246012E000661005 /* Digit88WhetherAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,22 +145,12 @@
 		AD2A89CA245E7C7000A1815F /* Digit88WhetherApp */ = {
 			isa = PBXGroup;
 			children = (
-				AD745D262460117A00661005 /* AutoSuggestTableViewCell.swift */,
-				AD745D2B2460117A00661005 /* CustomLoader.swift */,
-				AD745D242460117A00661005 /* demo.gif */,
-				AD745D272460117A00661005 /* DownloadImageUtil.swift */,
-				AD745D2C2460117A00661005 /* ForeCastCVCell.swift */,
-				AD745D2A2460117A00661005 /* Gif+Image.swift */,
-				AD745D2F2460117A00661005 /* SigninViewModel.swift */,
-				AD745D2E2460117A00661005 /* UserInfoModel.swift */,
-				AD745D282460117A00661005 /* ViewController.swift */,
-				AD745D292460117A00661005 /* WeatherImageCell.swift */,
-				AD745D312460117A00661005 /* WeatherMessageCell.swift */,
-				AD745D2D2460117A00661005 /* WeatherReportModel.swift */,
-				AD745D302460117A00661005 /* WeatherReportViewController.swift */,
-				AD745D252460117A00661005 /* WeatherReportViewModel.swift */,
-				AD745D212460115100661005 /* AutoCompleteModel.swift */,
-				AD745D202460115100661005 /* ForecastCityModel.swift */,
+				AD745D60246013C300661005 /* CustomLoader */,
+				AD745D61246013C300661005 /* Utils */,
+				AD745D5D2460133500661005 /* CustomCell */,
+				AD745D5C2460133500661005 /* CustomModel */,
+				AD745D5E2460133500661005 /* ViewController */,
+				AD745D5F2460133500661005 /* ViewModel */,
 				AD2A89CB245E7C7000A1815F /* AppDelegate.swift */,
 				AD2A89CD245E7C7000A1815F /* SceneDelegate.swift */,
 				AD2A89D1245E7C7000A1815F /* Main.storyboard */,
@@ -134,22 +161,80 @@
 			path = Digit88WhetherApp;
 			sourceTree = "<group>";
 		};
-		AD2A89E1245E7C7100A1815F /* Digit88WhetherAppTests */ = {
+		AD745D452460121100661005 /* Digit88WhetherAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				AD2A89E2245E7C7100A1815F /* Digit88WhetherAppTests.swift */,
-				AD2A89E4245E7C7100A1815F /* Info.plist */,
+				AD745D462460121100661005 /* Digit88WhetherAppTests.swift */,
+				AD745D482460121100661005 /* Info.plist */,
 			);
 			path = Digit88WhetherAppTests;
 			sourceTree = "<group>";
 		};
-		AD2A89EC245E7C7100A1815F /* Digit88WhetherAppUITests */ = {
+		AD745D53246012E000661005 /* Digit88WhetherAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AD2A89ED245E7C7100A1815F /* Digit88WhetherAppUITests.swift */,
-				AD2A89EF245E7C7100A1815F /* Info.plist */,
+				AD745D54246012E000661005 /* Digit88WhetherAppUITests.swift */,
+				AD745D56246012E000661005 /* Info.plist */,
 			);
 			path = Digit88WhetherAppUITests;
+			sourceTree = "<group>";
+		};
+		AD745D5C2460133500661005 /* CustomModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD745D212460115100661005 /* AutoCompleteModel.swift */,
+				AD745D202460115100661005 /* ForecastCityModel.swift */,
+				AD745D2E2460117A00661005 /* UserInfoModel.swift */,
+				AD745D2D2460117A00661005 /* WeatherReportModel.swift */,
+			);
+			path = CustomModel;
+			sourceTree = "<group>";
+		};
+		AD745D5D2460133500661005 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				AD745D262460117A00661005 /* AutoSuggestTableViewCell.swift */,
+				AD745D2C2460117A00661005 /* ForeCastCVCell.swift */,
+				AD745D292460117A00661005 /* WeatherImageCell.swift */,
+				AD745D312460117A00661005 /* WeatherMessageCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		AD745D5E2460133500661005 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD745D282460117A00661005 /* ViewController.swift */,
+				AD745D302460117A00661005 /* WeatherReportViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AD745D5F2460133500661005 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD745D252460117A00661005 /* WeatherReportViewModel.swift */,
+				AD745D2F2460117A00661005 /* SigninViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD745D60246013C300661005 /* CustomLoader */ = {
+			isa = PBXGroup;
+			children = (
+				AD745D2B2460117A00661005 /* CustomLoader.swift */,
+				AD745D242460117A00661005 /* demo.gif */,
+				AD745D2A2460117A00661005 /* Gif+Image.swift */,
+			);
+			path = CustomLoader;
+			sourceTree = "<group>";
+		};
+		AD745D61246013C300661005 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AD745D272460117A00661005 /* DownloadImageUtil.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		F49BD42823C96E5E3E782BBA /* Frameworks */ = {
@@ -199,6 +284,42 @@
 			productReference = AD2A89C8245E7C7000A1815F /* Digit88WhetherApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AD745D432460121100661005 /* Digit88WhetherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD745D4B2460121100661005 /* Build configuration list for PBXNativeTarget "Digit88WhetherAppTests" */;
+			buildPhases = (
+				AD745D402460121100661005 /* Sources */,
+				AD745D412460121100661005 /* Frameworks */,
+				AD745D422460121100661005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD745D4A2460121100661005 /* PBXTargetDependency */,
+			);
+			name = Digit88WhetherAppTests;
+			productName = Digit88WhetherAppTests;
+			productReference = AD745D442460121100661005 /* Digit88WhetherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD745D51246012E000661005 /* Digit88WhetherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD745D59246012E000661005 /* Build configuration list for PBXNativeTarget "Digit88WhetherAppUITests" */;
+			buildPhases = (
+				AD745D4E246012E000661005 /* Sources */,
+				AD745D4F246012E000661005 /* Frameworks */,
+				AD745D50246012E000661005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD745D58246012E000661005 /* PBXTargetDependency */,
+			);
+			name = Digit88WhetherAppUITests;
+			productName = Digit88WhetherAppUITests;
+			productReference = AD745D52246012E000661005 /* Digit88WhetherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +332,14 @@
 				TargetAttributes = {
 					AD2A89C7245E7C7000A1815F = {
 						CreatedOnToolsVersion = 11.0;
+					};
+					AD745D432460121100661005 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = AD2A89C7245E7C7000A1815F;
+					};
+					AD745D51246012E000661005 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = AD2A89C7245E7C7000A1815F;
 					};
 				};
 			};
@@ -228,6 +357,8 @@
 			projectRoot = "";
 			targets = (
 				AD2A89C7245E7C7000A1815F /* Digit88WhetherApp */,
+				AD745D432460121100661005 /* Digit88WhetherAppTests */,
+				AD745D51246012E000661005 /* Digit88WhetherAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,6 +372,20 @@
 				AD745D322460117A00661005 /* demo.gif in Resources */,
 				AD2A89D5245E7C7100A1815F /* Assets.xcassets in Resources */,
 				AD2A89D3245E7C7000A1815F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD745D422460121100661005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD745D50246012E000661005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +475,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD745D402460121100661005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD745D472460121100661005 /* Digit88WhetherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD745D4E246012E000661005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD745D55246012E000661005 /* Digit88WhetherAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD745D4A2460121100661005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD2A89C7245E7C7000A1815F /* Digit88WhetherApp */;
+			targetProxy = AD745D492460121100661005 /* PBXContainerItemProxy */;
+		};
+		AD745D58246012E000661005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD2A89C7245E7C7000A1815F /* Digit88WhetherApp */;
+			targetProxy = AD745D57246012E000661005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AD2A89D1245E7C7000A1815F /* Main.storyboard */ = {
@@ -502,6 +676,80 @@
 			};
 			name = Release;
 		};
+		AD745D4C2460121100661005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Digit88WhetherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Digit88WhetherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digit88WhetherApp.app/Digit88WhetherApp";
+			};
+			name = Debug;
+		};
+		AD745D4D2460121100661005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Digit88WhetherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Digit88WhetherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digit88WhetherApp.app/Digit88WhetherApp";
+			};
+			name = Release;
+		};
+		AD745D5A246012E000661005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Digit88WhetherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Digit88WhetherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Digit88WhetherApp;
+			};
+			name = Debug;
+		};
+		AD745D5B246012E000661005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Digit88WhetherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Digit88WhetherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Digit88WhetherApp;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -519,6 +767,24 @@
 			buildConfigurations = (
 				AD2A89F3245E7C7100A1815F /* Debug */,
 				AD2A89F4245E7C7100A1815F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD745D4B2460121100661005 /* Build configuration list for PBXNativeTarget "Digit88WhetherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD745D4C2460121100661005 /* Debug */,
+				AD745D4D2460121100661005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD745D59246012E000661005 /* Build configuration list for PBXNativeTarget "Digit88WhetherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD745D5A246012E000661005 /* Debug */,
+				AD745D5B246012E000661005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
