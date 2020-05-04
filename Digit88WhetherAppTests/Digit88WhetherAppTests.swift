@@ -7,11 +7,16 @@
 //
 
 import XCTest
+@testable import Digit88WhetherApp
 
 class Digit88WhetherAppTests: XCTestCase {
 
+    var signInVC: ViewController!
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        self.signInVC =  UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ViewController") as? ViewController
+        self.signInVC.loadView()
+        self.signInVC.viewDidLoad()
     }
 
     override func tearDown() {
@@ -28,6 +33,10 @@ class Digit88WhetherAppTests: XCTestCase {
         measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testAuthenticationMethodAdded() {
+        
     }
 
 }
