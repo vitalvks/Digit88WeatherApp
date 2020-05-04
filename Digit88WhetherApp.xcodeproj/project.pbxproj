@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4FB9016AEED94D4D35C59013 /* Pods_Digit88WhetherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682F91071FA4A2D1C2FA918F /* Pods_Digit88WhetherApp.framework */; };
 		AD280CD7246041960018F073 /* WeatherReportViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD280CD6246041960018F073 /* WeatherReportViewControllerTest.swift */; };
+		AD280CD9246044F60018F073 /* WeatherReportUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD280CD8246044F60018F073 /* WeatherReportUITest.swift */; };
 		AD2A89CC245E7C7000A1815F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A89CB245E7C7000A1815F /* AppDelegate.swift */; };
 		AD2A89CE245E7C7000A1815F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A89CD245E7C7000A1815F /* SceneDelegate.swift */; };
 		AD2A89D3245E7C7000A1815F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2A89D1245E7C7000A1815F /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		92209E058D344438870CEE92 /* Pods_Digit88WhetherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Digit88WhetherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02C31873844880939482B79 /* Pods-Digit88WhetherAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digit88WhetherAppTests.debug.xcconfig"; path = "Target Support Files/Pods-Digit88WhetherAppTests/Pods-Digit88WhetherAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD280CD6246041960018F073 /* WeatherReportViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReportViewControllerTest.swift; sourceTree = "<group>"; };
+		AD280CD8246044F60018F073 /* WeatherReportUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReportUITest.swift; sourceTree = "<group>"; };
 		AD2A89C8245E7C7000A1815F /* Digit88WhetherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Digit88WhetherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2A89CB245E7C7000A1815F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD2A89CD245E7C7000A1815F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			children = (
 				AD745D54246012E000661005 /* Digit88WhetherAppUITests.swift */,
 				AD745D56246012E000661005 /* Info.plist */,
+				AD280CD8246044F60018F073 /* WeatherReportUITest.swift */,
 			);
 			path = Digit88WhetherAppUITests;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD280CD9246044F60018F073 /* WeatherReportUITest.swift in Sources */,
 				AD745D55246012E000661005 /* Digit88WhetherAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
