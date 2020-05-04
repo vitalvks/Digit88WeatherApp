@@ -15,7 +15,6 @@ class WeatherReportViewController: UIViewController, UISearchBarDelegate, Weathe
     var weatherReportViewModel = WeatherReportViewModel()
     @IBOutlet weak var searchbar: UISearchBar!
     @IBOutlet weak var autoSuggestTableView: UITableView!
-    @IBOutlet weak var weatherImageView: UIImageView!
     @IBOutlet weak var weatherForeCastHolderView: UIView!
     @IBOutlet weak var weatherForeCastInfoTableView: UITableView!
     @IBOutlet weak var weatherForeCastCollectionView: UICollectionView!
