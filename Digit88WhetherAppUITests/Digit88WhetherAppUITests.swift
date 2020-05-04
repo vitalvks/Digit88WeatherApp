@@ -52,5 +52,10 @@ class Digit88WhetherAppUITests: XCTestCase {
         sleep(1)
     }
     
-    
+    func testTouchIDButtonIsTappable() {
+        let app = XCUIApplication()
+        app.launch()
+        app.buttons["TouchIDButton"].tap()
+        sleep(1)
+    }
 }

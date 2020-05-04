@@ -134,6 +134,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69a-cX-iUt">
                                         <rect key="frame" x="202" y="325" width="150" height="44"/>
                                         <color key="backgroundColor" red="0.8980392157" green="0.67843137249999996" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="TouchIDButton"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="150" id="ahC-L0-CF2"/>
                                             <constraint firstAttribute="height" constant="44" id="dFy-OG-FN8"/>
