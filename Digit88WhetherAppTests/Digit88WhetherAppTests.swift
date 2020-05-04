@@ -36,7 +36,15 @@ class Digit88WhetherAppTests: XCTestCase {
     }
     
     func testAuthenticationMethodAdded() {
-        
+        self.signInVC.responds(to: Selector(("authenticateUserTouchID")))
+    }
+    
+    func testFaceBookIntegrationAvailability() {
+        self.signInVC.responds(to: Selector(("facebookLoginSetup")))
+    }
+    
+    func testNavigateToWeatherScreenMethodAvailability() {
+        self.signInVC.responds(to: Selector(("navigateToWeatherReportScreen")))
     }
 
 }

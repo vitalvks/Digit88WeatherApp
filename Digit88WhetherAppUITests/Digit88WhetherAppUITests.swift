@@ -40,4 +40,17 @@ class Digit88WhetherAppUITests: XCTestCase {
             }
         }
     }
+    
+    func testTraditionalLoginFlow() {
+        let app = XCUIApplication()
+        app.launch()
+        app.textFields["UserNameFld"].tap()
+        app.textFields["UserNameFld"].typeText("abc")
+        app.textFields["PasswordFld"].tap()
+        app.textFields["PasswordFld"].typeText("abc")
+        app.buttons["LoginBtn"].tap()
+        sleep(1)
+    }
+    
+    
 }

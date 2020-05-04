@@ -43,6 +43,7 @@
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rXs-vm-yVh">
                                         <rect key="frame" x="8" y="40" width="358" height="50"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="UserNameFld"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Muk-Px-RTR"/>
                                         </constraints>
@@ -62,6 +63,7 @@
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Izg-a0-U8i">
                                         <rect key="frame" x="8" y="130" width="358" height="50"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="PasswordFld"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="yGN-f8-KQj"/>
                                         </constraints>
@@ -82,6 +84,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHx-Es-Szk">
                                         <rect key="frame" x="87.5" y="220" width="199" height="44"/>
                                         <color key="backgroundColor" red="0.8980392157" green="0.67843137249999996" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="LoginBtn"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="1Ie-Td-jmC"/>
                                             <constraint firstAttribute="width" constant="199" id="lWK-Oz-LbW"/>
@@ -266,7 +269,7 @@
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pfP-vd-d5g">
                                                     <rect key="frame" x="0.0" y="43" width="374" height="1"/>
-                                                    <color key="backgroundColor" systemColor="separatorColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="1" id="YyO-JZ-Uno"/>
                                                     </constraints>
