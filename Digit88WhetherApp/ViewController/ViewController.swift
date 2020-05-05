@@ -10,7 +10,7 @@ import UIKit
 import FBSDKLoginKit
 import LocalAuthentication
 
-class ViewController: UIViewController, LoginButtonDelegate, SigninViewProtocol, UITextFieldDelegate {
+class ViewController: UIViewController, LoginButtonDelegate, SigninViewProtocol, UITextFieldDelegate, WeatherReportProtocol {
     
     var signinViewModel = SigninViewModel()
     let fbLoginButton = FBLoginButton()
@@ -18,6 +18,7 @@ class ViewController: UIViewController, LoginButtonDelegate, SigninViewProtocol,
     @IBOutlet weak var userNameFld: UITextField!
     @IBOutlet weak var passwordFld: UITextField!
     @IBOutlet weak var fbBtnHolderView: UIView!
+    var weatherVC: WeatherReportViewController?
     
     
     override func viewDidLoad() {
@@ -28,6 +29,7 @@ class ViewController: UIViewController, LoginButtonDelegate, SigninViewProtocol,
         self.userNameFld.delegate = self
         self.passwordFld.delegate = self
         self.facebookLoginSetup()
+        self.fbBtnHolderView.layer.cornerRadius = self.fbBtnHolderView.frame.size.height / 2
     }
     
     //MARK:facebook Login Setup methods
@@ -103,7 +105,8 @@ class ViewController: UIViewController, LoginButtonDelegate, SigninViewProtocol,
     }
     
     func navigateToWeatherReportScreen() {
-        let weatherVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "WeatherReportViewController") as? WeatherReportViewController
+        weatherVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "WeatherReportViewController") as? WeatherReportViewController
+        weatherVC?.delegate = self
         weatherVC?.userName = self.signinViewModel.userInfo?.name
         self.navigationController?.pushViewController(weatherVC!, animated: true)
     }
@@ -122,6 +125,14 @@ class ViewController: UIViewController, LoginButtonDelegate, SigninViewProtocol,
     
     func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
         
+    }
+    
+    func logOutTapped() {
+        self.userNameFld.text = ""
+        self.passwordFld.text = ""
+        if let token = AccessToken.current, !token.isExpired {
+            LoginManager().logOut()
+        }
     }
 }
 

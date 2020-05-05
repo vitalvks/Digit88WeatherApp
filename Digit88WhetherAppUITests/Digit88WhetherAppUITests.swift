@@ -2,7 +2,7 @@
 //  Digit88WhetherAppUITests.swift
 //  Digit88WhetherAppUITests
 //
-//  Created by Balaji Sivaji on 04/05/20.
+//  Created by Sudhakar on 04/05/20.
 //  Copyright © 2020 Sudhakar. All rights reserved.
 //
 
@@ -57,5 +57,21 @@ class Digit88WhetherAppUITests: XCTestCase {
         app.launch()
         app.buttons["TouchIDButton"].tap()
         sleep(1)
+    }
+    
+    func testLogoutFlow() {
+        let app = XCUIApplication()
+        app.launch()
+        app.textFields["UserNameFld"].tap()
+        app.textFields["UserNameFld"].typeText("abc")
+        app.textFields["PasswordFld"].tap()
+        app.textFields["PasswordFld"].typeText("abc")
+        app.buttons["LoginBtn"].tap()
+        sleep(1)
+        
+        app.buttons["ProfileButton"].tap()
+        sleep(1)
+        app.buttons["LoginBtn"].tap()
+        sleep(2)
     }
 }

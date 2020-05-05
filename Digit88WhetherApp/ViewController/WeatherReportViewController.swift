@@ -9,15 +9,24 @@
 import UIKit
 import GooglePlaces
 
+protocol WeatherReportProtocol: class {
+    func logOutTapped()
+}
+
 class WeatherReportViewController: UIViewController, UISearchBarDelegate, WeatherReportViewProtocol {
     
     var userName: String?
     var weatherReportViewModel = WeatherReportViewModel()
+    weak var delegate: WeatherReportProtocol?
     @IBOutlet weak var searchbar: UISearchBar!
     @IBOutlet weak var autoSuggestTableView: UITableView!
     @IBOutlet weak var weatherForeCastHolderView: UIView!
     @IBOutlet weak var weatherForeCastInfoTableView: UITableView!
     @IBOutlet weak var weatherForeCastCollectionView: UICollectionView!
+    @IBOutlet weak var profileViewHolder: UIView!
+    @IBOutlet weak var dismissButton: UIButton!
+    @IBOutlet weak var profileViewWidthConstraint: NSLayoutConstraint!
+    @IBOutlet weak var profileViewTrailingConstraint: NSLayoutConstraint!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +38,8 @@ class WeatherReportViewController: UIViewController, UISearchBarDelegate, Weathe
         self.weatherForeCastHolderView.layer.cornerRadius = 5.0
         self.weatherForeCastHolderView.layer.borderWidth = 1.0
         self.weatherForeCastHolderView.layer.borderColor = UIColor(displayP3Red: 229/255.0, green: 173/255.0, blue: 40/255.0, alpha: 1.0).cgColor
+        self.profileViewWidthConstraint.constant = self.view.frame.size.width / 2
+        self.profileViewTrailingConstraint.constant -= self.profileViewWidthConstraint.constant
     }
      
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
@@ -64,6 +75,32 @@ class WeatherReportViewController: UIViewController, UISearchBarDelegate, Weathe
         DispatchQueue.main.async {
             self.weatherForeCastCollectionView.reloadData()
         }
+    }
+    
+    @IBAction func showProfileView(sender: UIButton) {
+        self.profileViewHolder.isHidden = false
+        self.profileViewHolder.alpha = 0
+        self.profileViewTrailingConstraint.constant = 0
+        UIView.animate(withDuration: 1) {
+            self.profileViewHolder.alpha = 1
+            self.view.layoutIfNeeded()
+        }
+    }
+    
+    @IBAction func hideProfileView(sender: UIButton) {
+        self.profileViewHolder.alpha = 1
+        self.profileViewTrailingConstraint.constant -= self.profileViewWidthConstraint.constant
+        UIView.animate(withDuration: 1, animations: {
+            self.profileViewHolder.alpha = 0
+            self.view.layoutIfNeeded()
+        }) { (true) in
+            self.profileViewHolder.isHidden = true
+        }
+    }
+    
+    @IBAction func logOutButtonPressed(sender: UIButton) {
+        self.delegate?.logOutTapped()
+        self.navigationController?.popViewController(animated: true)
     }
 }
 
