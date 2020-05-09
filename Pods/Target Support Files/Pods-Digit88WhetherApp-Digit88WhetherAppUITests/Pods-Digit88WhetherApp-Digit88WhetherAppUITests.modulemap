@@ -1,6 +1,0 @@
-framework module Pods_Digit88WhetherApp_Digit88WhetherAppUITests {
-  umbrella header "Pods-Digit88WhetherApp-Digit88WhetherAppUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
